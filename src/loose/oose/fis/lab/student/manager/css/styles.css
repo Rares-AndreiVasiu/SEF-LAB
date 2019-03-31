@@ -31,6 +31,35 @@
     -fx-background-insets: 0, 0 0 1 0;
 }
 
+.root-pane {
+    -fx-background-color: rosybrown;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bolder;
+    -fx-text-fill: green;
+}
+
+#title-text {
+    -fx-font-size: 40px;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-fill: yellow;
+}
+
+#actionTarget {
+    -fx-fill: red;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
 .table-row-cell:selected {
     -fx-background-color: #ff3d77;
     -fx-background-insets: 0;
