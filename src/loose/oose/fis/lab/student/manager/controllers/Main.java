@@ -2,6 +2,6 @@ package loose.oose.fis.lab.student.manager.controllers;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello my dear padawan");
+        System.out.println("Hello my dear jedi lord");
     }
 }
